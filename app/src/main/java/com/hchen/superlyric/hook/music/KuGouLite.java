@@ -60,7 +60,7 @@ public class KuGouLite extends BaseLyric {
                 return;
             if (!enableStatusBarLyric()) return;
 
-            if (versionCode <= 10935)
+            if (versionCode <= 10556)
                 hookLocalBroadcast("android.support.v4.content.LocalBroadcastManager");
             else
                 hookLocalBroadcast("androidx.localbroadcastmanager.content.LocalBroadcastManager");
